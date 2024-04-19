@@ -17,5 +17,6 @@
    5. (error when moving a slider:) the address for brightness, contrast might vary from the default – check ```ddccontrol -p```
    6. ... tweak the code to your liking, get inspired, or burn it all down
 3. Execute on Linux ```python basicddc.py```, or wherever you get ddccontrol and Python to run.
+4. Try the CLI mode: ```python basicddc.py --brightness -10 --id "9" "1"``` will decrease the brightness by 10 for given monitors. Suitable for shortcuts – you will never have the urge to set a nice number as a percentage.
 
 *hmpf, too much doc for so little code*
